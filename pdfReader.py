@@ -10,7 +10,6 @@ def readerPdf(path, pagenum):
     file = path
     if file != "":
         try:
-            # print(file)
             # file = easygui.fileopenbox()
             webbrowser.open_new(file)
             # book = open('oop.pdf','rb')
