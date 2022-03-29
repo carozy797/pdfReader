@@ -40,6 +40,7 @@ sg.theme("DarkTeal2")
 layout = [[sg.T("")], [sg.Text("Select a pdf file: "), sg.Input(key="") , sg.FileBrowse(key="-IN-")], [sg.T("")], [sg.Text("Page number:", justification="left"),sg.InputText(key="pnumb", justification="left")] ,[sg.Button("Read PDF", ),], [sg.Button("cancel"),]]
 
 #Building Window
+#getting a gui to selcet the file
 window = sg.Window(' Fausford PDF Reader', layout,icon="organiser.ico", size=(600, 300), element_justification="center")
 while True:
     event, values = window.read()
