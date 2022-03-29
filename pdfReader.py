@@ -67,6 +67,5 @@ while True:
         print("closing..")
         exit(0)
 
-        # speaker.stop()
-        # print("nice")
+        
 
